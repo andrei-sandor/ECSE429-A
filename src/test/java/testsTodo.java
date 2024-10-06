@@ -445,7 +445,7 @@ public class testsTodo {
 
     }
 
-    // Expected behavior
+    // Expected behavior of bug above
     @Test
     public void putTodosWithMissingTitleValidIDExpectedResult() throws JSONException {
         int id = 1;
@@ -508,7 +508,7 @@ public class testsTodo {
         assertEquals("false", doneStatus);
     }
 
-    // Expected Result
+    // Expected Result of bug above
     @Test
     public void putTodosWithOnlyTitleValidIDExpectedResult() throws InterruptedException, JSONException {
 

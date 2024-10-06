@@ -578,7 +578,7 @@ public class testsProject {
 
         assertEquals(404,response.getStatusCode());
     }
-    // Bug behaviour
+    // Bug behaviour. It overrides the title to the default value
     @Test
     public void putProjectsWithMissingTitleValidIdActualBehaviour() {
         int id = 1;
